@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <base href="../">
+        <link rel="shortcut icon" href="favicon.png">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+        <link href="css/bootstrap.min.css" rel="stylesheet" >
+        <script src="js/bootstrap.bundle.min.js" ></script>
+    
+        <link rel="stylesheet" href="css/styles.css">
+    
+        <title>Clase2</title>
+    </head>
+<body>
+    <header>
+        <div id="logo">
+            <div class="container">
+                <img src="img/logo.jpg" alt="">
+            </div>
+        </div>
+        <!--nav: la etiqueta para definir lo que esta dentro del menu de navegacion-->
+        <div class="container">
+            <nav id="menu">
+                <!--Declaramos lista desordenada-->
+                <ul>
+                    <!--List Items-->
+                    <li>
+                        <a href="index.html" >Inicio</a>
+                    </li>
+                    <li>
+                        <a href="pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="pages/ilustraciones.html">ilustraciones</a>
+                    </li>
+                    <li class="activo">
+                        <a href="pages/contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="pages/demostracion.html">Demostracion</a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+	<section class="container mt-3">
+		<p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Pellentesque non nulla fringilla, porta libero sit amet, aliquet nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</section>
+    <section class="container">
+        <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email </label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje </label>
+              <textarea name="mensaje" id="mensaje" cols="20" rows="5" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    </section>
+    <footer>
+        <div class="container">
+			copyright 2023 Soquiilus
+		</div>
+    </footer>
+</body>
+</html>
